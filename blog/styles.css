@@ -1,0 +1,104 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+  }
+  
+  header {
+    background-color: #333;
+    color: white;
+    padding: 1em 0;
+    text-align: center;
+  }
+  
+  header h1 {
+    margin: 0;
+  }
+  
+  nav ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+  }
+  
+  nav ul li {
+    margin: 0 1em;
+  }
+  
+  nav ul li a {
+    color: white;
+    text-decoration: none;
+  }
+  
+  nav ul li a:hover {
+    text-decoration: underline;
+  }
+  
+  main {
+    padding: 2em;
+  }
+  
+  h2 {
+    color: #333;
+  }
+  
+  .post-preview {
+    background-color: white;
+    padding: 1em;
+    margin: 1em 0;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+  }
+  
+  .post-preview h3 {
+    margin-top: 0;
+  }
+  
+  footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 1em 0;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+  }
+  
+  form {
+    background-color: white;
+    padding: 2em;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    max-width: 500px;
+    margin: 0 auto;
+  }
+  
+  form label {
+    display: block;
+    margin: 0.5em 0 0.2em;
+  }
+  
+  form input,
+  form textarea {
+    width: 100%;
+    padding: 0.5em;
+    margin-bottom: 1em;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  form button {
+    background-color: #4caf50;
+    color: white;
+    padding: 0.5em 1em;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  form button:hover {
+    background-color: #45a049;
+  }
+  
