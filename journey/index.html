@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Journey Planner</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h1>Journey Planner</h1>
+      <form id="journeyForm">
+        <div class="form-group">
+          <label for="currentLocation">Current Location:</label>
+          <input type="text" id="currentLocation" required />
+        </div>
+        <div class="form-group">
+          <label for="finalDestination">Final Destination:</label>
+          <input type="text" id="finalDestination" required />
+        </div>
+        <div class="form-group">
+          <label>Transportation Options:</label>
+          <div class="checkbox-group">
+            <input type="checkbox" id="car" name="transportation" value="car" />
+            <label for="car">Car</label>
+            <input
+              type="checkbox"
+              id="train"
+              name="transportation"
+              value="train"
+            />
+            <label for="train">Train</label>
+            <input type="checkbox" id="bus" name="transportation" value="bus" />
+            <label for="bus">Bus</label>
+          </div>
+        </div>
+        <button type="submit">Plan Journey</button>
+      </form>
+      <div id="recommendations">
+        <h2>Recommended Places at Final Destination</h2>
+        <ul id="recommendedPlaces">
+          <!-- Recommended places will be dynamically added here -->
+        </ul>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
